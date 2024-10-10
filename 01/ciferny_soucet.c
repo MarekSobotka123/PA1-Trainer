@@ -7,6 +7,10 @@ int main(int argc, char *argv[]) {
     printf("Nespravny vstup.\n");
     return 0;
   }
+  if (num < 0) {
+    printf("Nespravny vstup.\n");
+    return 0;
+  }
 
   int size = 1 + log10(num);
 
